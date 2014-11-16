@@ -10,6 +10,7 @@ RUN apt-get dist-upgrade -y -q
 RUN apt-get install -y -q transmission-daemon
 RUN apt-get install -y -q nginx
 RUN apt-get install -y -q supervisor
+RUN apt-get install -y -q calibre
 RUN apt-get clean
 
 # Config Transmission
