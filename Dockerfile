@@ -10,7 +10,8 @@ RUN apt-get dist-upgrade -y -q
 RUN apt-get install -y -q transmission-daemon
 RUN apt-get install -y -q nginx
 RUN apt-get install -y -q supervisor
-RUN apt-get install -y -q calibre
+#RUN apt-get install -y -q calibre
+RUN apt-get install -y -q python3 python3-dev python3-pip python3-pyqt4 libtiff4-dev libpng12-dev libjpeg8-dev p7zip-full
 RUN apt-get clean
 
 # Config Transmission
